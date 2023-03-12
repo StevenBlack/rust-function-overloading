@@ -1,4 +1,4 @@
-# rust-function-overloading
+# 🦀 rust-function-overloading
 
 This is a simple example of function overloading in Rust.
 

@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "dogbark"
+name = "rust-function-overloading"
 version = "0.1.0"
