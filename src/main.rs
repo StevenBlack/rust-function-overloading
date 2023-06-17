@@ -33,8 +33,16 @@ impl Bark<i32> for Dog {
     }
 }
 
+impl Bark<f32> for Dog {
+    fn bark(&self, s: f32) {
+        let _ = s;
+        println!("{} bark on float type", self.name);
+    }
+}
+
 fn main() {
     let d = Dog::from("toby".to_string());
     d.bark("string".to_string());
     d.bark(4);
+    d.bark(-23.3);
 }
